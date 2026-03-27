@@ -27,7 +27,7 @@ local function set_keymaps()
 
 	-- Salvar
 	map('n',  '<leader>s', ':w<CR>', 	opts)
-	map('i',  '<leader>s', '<Esc>:w<CR>a',  opts)
+	map('i',  '<C-s>', '<Esc>:w<CR>a',  opts)
 
 	-- Fechar buffer
 	map('n', '<leader>w', ':bd<CR>',  opts)	-- Fecha buffer atual
